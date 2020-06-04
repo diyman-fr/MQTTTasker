@@ -1,0 +1,15 @@
+{
+  "mqttTasker": {
+    "clientId": "MQTTTasker",
+    "host": "192.168.1.200",
+    "username": "mqtt",
+    "password": "NFP8\\aU#g$JBaXsp",
+    "handlers": [
+      {
+        "Topic": "BlueIris/test",
+        "Command": "ping",
+        "CommandArgs": "%payload%"
+      }
+    ]
+  }
+}
